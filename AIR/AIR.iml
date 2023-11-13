@@ -7,6 +7,7 @@
           <entries>
             <entry library-id="1c696a4b-410d-456b-b23a-cc85708819de">
               <dependency linkage="Merged" />
+<dependency linkage="Merged" />
             </entry>
           </entries>
           <sdk name="AIR_33.0.2" />
