@@ -3,6 +3,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 
+
+// importing modules here
+const express = require("express");
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+
 // importing different files
 const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
@@ -10,6 +16,13 @@ const authRoute = require("./routes/auth");
 const app = express();
 
 dotenv.config();
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then(() => console.log("DB Connection Successful"))
+  .catch((err) => {
+    console.log(err);
+  });
+
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log("DB Connection Successful"))
