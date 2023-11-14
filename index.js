@@ -1,8 +1,4 @@
 // importing modules here
-// importing modules here
-const express = require("express");
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
 
 // importing different files
 const userRoute = require("./routes/user");
