@@ -1,9 +1,4 @@
 // importing modules here
-const express = require("express");
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-
-
 // importing modules here
 const express = require("express");
 const mongoose = require("mongoose");
